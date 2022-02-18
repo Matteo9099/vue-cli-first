@@ -2,17 +2,20 @@
   <div id="app">
 
     <TitleComponent></TitleComponent>
+    <HeroComponents></HeroComponents>
 
   </div>
 </template>
 
 <script>
 import TitleComponent from './components/TitleComponent.vue'
+import HeroComponents from './components/HeroComponents.vue'
 
 export default {
   name: 'App',
   components: {
-    TitleComponent
+    TitleComponent,
+    HeroComponents
   }
 }
 </script>
