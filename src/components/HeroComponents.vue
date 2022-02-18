@@ -30,8 +30,6 @@
     }
 
     .text{
-        display: flex;
-        align-content: center;
         color: #fff;
     }
 
